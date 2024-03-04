@@ -10,9 +10,11 @@ body {
     background-size: cover;
     background-image: linear-gradient(135deg, #00B692, #00B692, #474341);
 }
+
 a {
     text-decoration: none;
 }
+
 /* Start app bar */
 .app-bar {
     padding: 50px;
@@ -104,22 +106,55 @@ a {
 .texts {
     margin-top: -70px;
 }
-
+@media (max-width:1272px) {
+    .texts {
+        padding: 0 200px;
+    }
+}
+@media (max-width:1050px) {
+    .texts {
+        padding: 0 100px;
+    }
+}
+@media (max-width:851px) {
+    .texts {
+        padding: 0 50px;
+    }
+}
+@media (max-width:750px) {
+    .texts {
+        padding: 0 30px;
+    }
+}
 .texts p {
     margin: 0;
-    max-width: 700px;
-    margin-left: 50%;
-    transform: translateX(-50%);
+
     color: white;
-    text-align: justify;
+    text-align: start;
     font-size: 20px;
+    
+}
+
+@media (min-width: 1273px) {
+    
+    .texts p {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+@media (max-width:710px) {
+    .texts p {
+        font-size: 17.8px;
+    }
 }
 @media (max-width: 900px) {
     .texts p {
-        font-size: 16px;
+        /* font-size: 16px; */
     }
-    
+
 }
+
 .texts .mobile {
 
     text-align: center;

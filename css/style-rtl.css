@@ -1,10 +1,21 @@
 p {
     direction: rtl;
 }
+
 .texts p {
-    max-width: 500px;
+    margin-left: 0;
+    transform: translateX(0);
+}
+
+@media (min-width: 1273px) {
+
+    .texts p {
+        padding: 0 400px;
+
+    }
 
 }
+
 .texts .mobile {
     flex-direction: row-reverse;
 }
