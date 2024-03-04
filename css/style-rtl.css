@@ -1,0 +1,10 @@
+p {
+    direction: rtl;
+}
+.texts p {
+    max-width: 500px;
+
+}
+.texts .mobile {
+    flex-direction: row-reverse;
+}

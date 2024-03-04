@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: "Almarai";
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: linear-gradient(135deg, #00B692, #00B692, #474341);
+}
+
+/* Start app bar */
+.app-bar {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:777px) {
+    .app-bar {
+        padding: 20px;
+    }
+}
+
+.lang-icon a {
+    padding-bottom: 60px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.lang-icon img {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+.lang-icon p {
+    color: white;
+    font-size: 18pt;
+    margin: 0;
+    font-weight: b;
+}
+
+/* End app bar */
+/* Start logo */
+.logo {
+    margin-top: -80px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo img {
+    height: 220px;
+    width: 220px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 971px) {
+    .logo img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/*End logo */
+/* Start soon */
+.soon {
+    margin-top: -120px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.soon img {
+    height: 340px;
+    width: 340px;
+    margin-left: 50%;
+
+    transform: translateX(-50%);
+}
+
+@media (max-width: 1273px) {
+    .soon img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/*End soon */
+/* Start texts */
+.texts {
+    margin-top: -70px;
+}
+
+.texts p {
+    margin: 0;
+    max-width: 700px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+}
+@media (max-width: 900px) {
+    .texts p {
+        font-size: 16px;
+    }
+    
+}
+.texts .mobile {
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.texts .mobile img {
+    width: 30px;
+    height: 30px;
+}
+
+.texts .orange {
+    font-weight: bolder;
+    color: #F4B24F;
+}
+
+.texts .third {
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* End texts */
+/* Start links */
+.links {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
+}
+
+.pra-div,
+.tech-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pra-div p,
+.tech-div p {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+@media (max-width:777px) {
+
+    .pra-div p,
+    .tech-div p {
+        font-size: 11px;
+
+
+    }
+
+}
+
+.links .praivacy,
+.links .tech {
+    height: 30px;
+    width: 30px;
+}
+
+@media (max-width:777px) {
+
+    .links .praivacy,
+    .links .tech {
+        height: 25px;
+        width: 25px;
+    }
+
+}
+
+.links .praivacy {
+    margin-right: 0px;
+}
+
+/* End links */
