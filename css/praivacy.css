@@ -24,3 +24,7 @@ body {
     font-size: 30px;
     font-weight: bold;
 }
+
+.text {
+    padding: 40px;
+}
