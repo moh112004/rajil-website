@@ -155,6 +155,7 @@ a {
 @media (max-width:750px) {
     .texts {
         padding: 0 10px;
+        margin-top: -50px;
     }
 }
 
@@ -199,7 +200,12 @@ a {
     font-size: 24px;
     margin: 15px 0;
 }
+@media (max-width: 750px) {
+    .texts .mobile {
+        margin: 50px 0;
+    }
 
+}
 .texts .mobile img {
     width: 30px;
     height: 30px;
